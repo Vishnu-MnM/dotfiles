@@ -67,12 +67,13 @@ alias zrc='zed ~/.zshrc'
 alias src='source ~/.zshrc'
 alias cniri='zed ~/.config/niri'
 alias rm='rm -i'
+alias conf='cd ~/.config'
 
 ### Pacman Aliases ###
 alias sps='sudo pacman -S'
 alias spr='sudo pacman -R'
 alias spd='sudo pacman -Rns'
-
+alias syu='sudo pacman -Syu'
 ### Shell integrations ###
 eval "$(fzf --zsh)"
 eval "$(zoxide init zsh)"
